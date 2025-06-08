@@ -29,6 +29,7 @@ const totalDebited = amount + calculatedFee;
  console.log(`Sending KES ${amount}:`);
  console.log(`Calculated Transaction Fee: KES ${calculatedFee}`);
  console.log(`Total amount to be debited: KES ${totalDebited}`);
+ console.log("\nSend Money Securely!");
 
 }
 
