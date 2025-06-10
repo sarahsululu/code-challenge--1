@@ -1,5 +1,4 @@
-//Import prompt sync for user Input 
-const prompt = require('prompt-sync')();
+var prompt = require('prompt-sync')();
 //function calculateBodaFare
   function calculateBodaFare(distance, time) {
 //prompt the user distance in kilometers

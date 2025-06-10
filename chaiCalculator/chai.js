@@ -1,3 +1,4 @@
+var prompt = require('prompt-sync')();
 // Function to calculate chai ingredients
 function calculateChaiIngredients() {
   // Prompt user for number of cups

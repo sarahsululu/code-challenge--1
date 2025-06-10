@@ -1,60 +1,47 @@
-# code-challenge--1
-# Week 1 JavaScript Code Challenges
+# Week 1 JavaScript Code Challenges – Moringa School
 
-## Description
+## Overview
 
-This repository contains my solutions for the Week 1 Code Challenges provided as part of [mention your course or program name if applicable, otherwise omit]. The challenges focus on fundamental JavaScript concepts including variables, data types, operators, functions, user input (simulated via `prompt`), conditional logic, and basic object manipulation.
+This is my submission for the Week 1 code challenge at Moringa. It includes three small JavaScript projects to practice things like:
 
-The challenges covered are:
+- variables and data types
+- if/else statements
+- functions
+- getting user input using `prompt-sync`
+- doing basic math
 
-1.  **Chai Bora Ingredient Calculator:** A script that calculates the required ingredients for making Kenyan chai based on the number of cups requested by the user.
-2.  **Boda Boda Ride Fare Estimator:** A script that estimates the fare for a motorcycle taxi ride based on a base fare and distance traveled.
-3.  **Simplified Mobile Money Transaction Fee Estimator:** A script that calculates a transaction fee based on a percentage, while enforcing minimum and maximum fee limits.
+## How to Set Up
 
-## Project Structure
+Before running the code, you need to install `prompt-sync` so that the scripts can get input from the user in the terminal.
 
-The code for each challenge is organized into dedicated folders within the `Code-Challenge-1` repository:
+Open the terminal and run:
 
-*   `chaiCalculator/`: Contains the solution for Challenge 1 (`chai.js`).
-*   `bodaFareCalculator/`: Contains the solution for Challenge 2 (`fare.js`).
-*   `mobileMoneyEstimator/`: Contains the solution for Challenge 3 (`fee.js`).
+npm install prompt-sync
 
-Each folder contains a single JavaScript file with the complete solution for that specific challenge.
+Make sure you are in the main project folder when you do this.
 
-## Project Setup and How to Run
 
-To set up and run the code from this repository:
+## Challenges
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [Link to your GitHub repository]
-    ```
-    Replace `[Link to your GitHub repository]` with the actual URL of your repository on GitHub.
-2.  **Navigate into the repository directory:**
-    ```bash
-    cd Code-Challenge-1
-    ```
-    (Or whatever you named your repository)
-3.  **Running the scripts:**
-    These scripts use the `prompt()` function, which is typically available in web browser environments or simulated in other environments. You will need an environment that supports `prompt()` to run these scripts as written.
+1. **Chai Bora Calculator** – Calculates ingredients needed based on how many cups of tea you want to make.
+2. **Boda Boda Fare Estimator** – Tells you how much your boda ride might cost depending on distance.
+3. **Mobile Money Fee Estimator** – Calculates how much fee is charged when sending money.
 
-    *   **Example using Node.js with a library (requires setup):**
-        If running in a terminal using Node.js, you would typically need a library like `readline-sync` to handle prompts. After installing such a library (`npm install readline-sync` and modifying your JS files to use it), you could run:
-        ```bash
-        node chaiCalculator/chai.js
-        # or
-        node bodaFareCalculator/fare.js
-        # or
-        node mobileMoneyEstimator/fee.js
-        ```
+## Folder Structure
 
-    **Note:** Ensure you are running the scripts in an environment where `prompt()` is available or correctly polyfilled/simulated.
+## Folder Structure
+
+I organized each challenge into its own folder like this:
+
+- `chaiCalculator/` – has the chai calculator script (`chai.js`)
+- `bodaFareCalculator/` – has the boda fare estimator (`fare.js`)
+- `mobileMoneyEstimator/` – has the mobile money fee calculator (`fee.js`)
+
+
+Each file has a solution to the specific challenge.
 
 ## Author
 
-*   [Your Name]
-*   [Your GitHub Username (Optional)]
+Sarah Sululu – Moringa School
 
-## License
 
-This project is licensed under the [e.g., MIT License]. You can find the full license text in the [LICENSE](LICENSE) file (if you choose to add a license file).
