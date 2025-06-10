@@ -2,46 +2,91 @@
 
 ## Overview
 
-This is my submission for the Week 1 code challenge at Moringa. It includes three small JavaScript projects to practice things like:
+This is my submission for the Week 1 code challenge at Moringa School. It includes three simple JavaScript projects designed to practice key programming concepts such as:
 
-- variables and data types
-- if/else statements
-- functions
-- getting user input using `prompt-sync`
-- doing basic math
+- Variables and data types
+- If/else statements
+- Functions and return values
+- Getting user input using prompt-sync
+- Basic arithmetic operations
 
-## How to Set Up
+---
 
-Before running the code, you need to install `prompt-sync` so that the scripts can get input from the user in the terminal.
+## How to Set Up and Run
 
-Open the terminal and run:
+To get started with this project:
 
-npm install prompt-sync
+1.  **Clone the repository:**
+    Open your terminal and run the following command, replacing [YOUR_REPOSITORY_URL] with the actual URL of your GitHub repository:
 
-Make sure you are in the main project folder when you do this.
+    
+bash
+    git clone [YOUR_REPOSITORY_URL]
 
+
+2.  **Navigate into the project directory:**
+    
+bash
+    cd code-challenge--1
+
+
+3.  **Install prompt-sync:**
+    Each script uses prompt-sync to read user input in the terminal. You must install it first:
+
+    
+bash
+    npm install prompt-sync
+
+
+4.  **Run the scripts:**
+    Navigate into the specific challenge folder and run the script using Node.js:
+
+    
+bash
+    cd chaiCalculator # Example for the first challenge
+    node chai.js
+
+    # To run other challenges, navigate to their folders:
+    # cd ../bodaFareCalculator
+    # node fare.js
+
+    # cd ../mobileMoneyEstimator
+    # node fee.js
+
+
+---
 
 ## Challenges
 
-1. **Chai Bora Calculator** – Calculates ingredients needed based on how many cups of tea you want to make.
-2. **Boda Boda Fare Estimator** – Tells you how much your boda ride might cost depending on distance.
-3. **Mobile Money Fee Estimator** – Calculates how much fee is charged when sending money.
+1.  **Chai Bora Ingredient Calculator**
+    Calculates the ingredients needed based on how many cups of tea you want to prepare.
+
+2.  **Boda Boda Fare Estimator**
+    Estimates the fare for a boda ride based on distance and a base rate.
+
+3.  **Mobile Money Fee Estimator**
+    Calculates the transaction fee when sending money, including limits for minimum and maximum fees.
+
+---
 
 ## Folder Structure
 
-## Folder Structure
+bash
+code-challenge--1/
 
-I organized each challenge into its own folder like this:
+Each folder contains the script for one challenge.
 
-- `chaiCalculator/` – has the chai calculator script (`chai.js`)
-- `bodaFareCalculator/` – has the boda fare estimator (`fare.js`)
-- `mobileMoneyEstimator/` – has the mobile money fee calculator (`fee.js`)
+chaiCalculator/ – this has the file chai.js for calculating tea ingredients
+
+bodaFareCalculator/ – this has fare.js, which estimates the boda ride fare
+
+mobileMoneyEstimator/ – this contains fee.js, which works out the mobile money fees
 
 
-Each file has a solution to the specific challenge.
 
-## Author
+##Author
 
-Sarah Sululu – Moringa School
+sarah sululu -Moringa school
+
 
 
