@@ -1,3 +1,4 @@
+var prompt = require('prompt-sync')();
 //function to estimate mobile money transfer fee
 function estimateTransactionFee() {
 //prompt the user to enter the amount they wish to send
